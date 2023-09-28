@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex02</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+    <script src="ex02.js"></script>
+</head>
+<body>
+    Entra la cantidad de países a visualizar: <input type="number" id="cantidad" min="1" max="10"><br>
+    <h3>TAULA</h3>
+    <table id="tabla" style="width:100%">
+        <tr>
+            <th>Capital</th>
+            <th>País</th>
+            <th>Continente</th>
+        </tr>
+    </table>
+    <button onclick="creaTabla()">Crear Nova Taula</button>
+    <button onclick="esborra()">Esborra Taula</button>
+</body>
+</html>
+
